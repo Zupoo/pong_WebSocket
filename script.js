@@ -145,7 +145,7 @@ atualizar()
 
 // const socket = new WebSocket("ws://localhost:8765");//cria um objeto do tipo websocket, agora a "variavel"socket é um objeto e pode usar funçoes do websocket //igual quando tem umca classe e gera um objeto da classe
 //ws://localhost:8765 é endereço
-const socket = new WebSocket("wss://pong-websocket.onrender.com"); //para conectar o o websocket em vez do localhost
+const socket = new WebSocket("wss://pong-websocket-1.onrender.com"); //para conectar o o websocket em vez do localhost
 //e ao criar o objeto socket ele ja tenta conectar ao endereço q passa como parametro
 socket.onopen = () => {    // coloca a funçao dentro de socket.open pra quando o navegador rodar socket.onopen() rodar a funcao
     console.log("Conectado ao servidor!"); 
